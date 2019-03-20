@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tool="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:layout_gravity="center_horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="64dp"
+            app:civ_border_width="2dp"
+            android:layout_height="64dp"
+            app:srcCompat="@android:drawable/btn_dialog"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/profileFrom_imageView_latestMessages"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+        <TextView
+                tool:text="Username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="240dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/roundededges_edittext"
+                android:padding="8dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/username_textView_latestMessages"
+                android:textColor="@android:color/black"/>
+        <TextView
+                tool:text="Username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="240dp"
+                android:textSize="14dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/roundededges_edittext"
+                android:paddingLeft="8dp"
+                android:id="@+id/messageFrom_textView_latestMessages"/>
+    </LinearLayout>
+
+</LinearLayout>

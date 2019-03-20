@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "343962838739",
+    "firebase_url": "https://kotlinmesseger-dd982.firebaseio.com",
+    "project_id": "kotlinmesseger-dd982",
+    "storage_bucket": "kotlinmesseger-dd982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343962838739:android:042ad37ecd0f2d53",
+        "android_client_info": {
+          "package_name": "com.example.gorda.kotlinmesseger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343962838739-j1nilp6vb8sf0v042jeqsqtjk1hm731a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaRyWhfTVYFqG0cSL1YHaQEo0o759ClVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
